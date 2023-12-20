@@ -1,0 +1,5 @@
+open powershell terminal install python 3.11  then 
+python -m venv env
+env/scripts/activate
+pip install -r requirements.txt
+python 
