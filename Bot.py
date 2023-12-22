@@ -28,8 +28,8 @@ def get_latest_downloaded_file(directory):
     return latest_file
 
 #enter your email password 
-email ="wahabkamran0@gmail.com"
-password ="Bahria.015"
+email =""
+password =""
 driver.find_element(By.NAME, "email").send_keys(email)
 driver.find_element(By.NAME, "password").send_keys(password)
 login_button = WebDriverWait(driver, 10).until(
